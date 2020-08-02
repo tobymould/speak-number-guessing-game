@@ -51,17 +51,17 @@ const checkNumber = msg => {
   console.log(toleranceValue);
   if (msg > 100 || msg < 1) {
     msgEl.innerHTML += `<div>You need to guess a number between 1 - 100 only</div>`;
-  } else if (toleranceValue > 60 && toleranceValue < 100) {
+  } else if (toleranceValue >= 60 && toleranceValue < 100) {
     msgEl.innerHTML += `<div>you are guessing on the complete opposite end of the range. Try again :)</div>`;
-  } else if (toleranceValue > 40 && toleranceValue < 60) {
+  } else if (toleranceValue >= 40 && toleranceValue < 60) {
     msgEl.innerHTML += `<div>You are frozen cold you're so far</div>`;
-  } else if (toleranceValue > 20 && toleranceValue < 40) {
+  } else if (toleranceValue >= 20 && toleranceValue < 40) {
     msgEl.innerHTML += `<div>You are cold</div>`;
-  } else if (toleranceValue > 10 && toleranceValue < 20) {
+  } else if (toleranceValue >= 10 && toleranceValue < 20) {
     msgEl.innerHTML += `<div>You are warm</div>`;
-  } else if (toleranceValue > 5 && toleranceValue < 10) {
+  } else if (toleranceValue >= 5 && toleranceValue < 10) {
     msgEl.innerHTML += `<div>You are hot!</div>`;
-  } else if (toleranceValue > 3 && toleranceValue < 5) {
+  } else if (toleranceValue >= 3 && toleranceValue < 5) {
     msgEl.innerHTML += `<div>You are boiling you're sooooo close!!</div>`;
   } else if (toleranceValue >= 1 && toleranceValue < 3) {
     msgEl.innerHTML += `<div>You couldn't be closer if you tried!</div>`;
