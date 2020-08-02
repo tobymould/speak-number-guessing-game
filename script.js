@@ -1,10 +1,18 @@
 const msgEl = document.getElementById('msg');
+const start = document.querySelector('#start-button');
+// const stop = document.querySelector('#stop-button');
 
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 let recognition = new window.SpeechRecognition();
 
-recognition.start();
+const startListening = () => {
+  recognition.start();
+};
+
+// const stopListening = () => {
+//   recognition.stop();
+// };
 
 const onSpeak = e => {
   console.log(e);
@@ -35,3 +43,5 @@ const checkNumber = msg => {
 
 // speak result:
 recognition.addEventListener('result', onSpeak);
+start.addEventListener('click', startListening);
+// stop.addEventListener('click', stopListening);
