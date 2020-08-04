@@ -24,7 +24,7 @@ const onSpeak = e => {
 };
 
 const writeMessage = msg => {
-  msgEl.innerHTML = `<div>you guessed: </div> <span class="box"> ${msg} </span`;
+  msgEl.innerHTML = `<div>You guessed: </div> <span class="box"> ${msg} </span`;
   return;
 };
 
