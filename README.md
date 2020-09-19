@@ -5,4 +5,4 @@
    - __Status:__ COMPLETE 
 
 ## :hammer: Languages/Tools :hammer:
-__React.js | Sass | CSS3 | HTML5 | Firebase__
+__JavaScript | Sass | CSS3 | HTML5 | Firebase__
