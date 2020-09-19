@@ -1,5 +1,5 @@
 # Speech-Recognition Guessing Game ReadMe 📢  :nerd_face:
-> React Firebase Website enabling the search of Github.com User profiles en masse.
+>  A game where a user guesses the number by speech.
 
 ## :satellite: Summary :satellite:
    - __Status:__ COMPLETE 
