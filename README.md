@@ -9,7 +9,7 @@ __JavaScript | Sass | CSS3 | HTML5 | Firebase__
 
 ## 🔬 Notable Features 🔬
 1. __Speech transcription__ - Use of voice-command :microphone: to interact with the App.
-2. __Auto-update__ - Using the dynamic transcription response to initiate a rendering :mechanical_arm: update to the page.
+2. __Auto-update__ - Using the dynamic transcription response to initiate a rendering :hear_no_evil: update to the page.
 
 ## :chart_with_upwards_trend: How to Use :chart_with_upwards_trend:
 ### Watch a demo :movie_camera:
